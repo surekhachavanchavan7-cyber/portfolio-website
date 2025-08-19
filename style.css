@@ -1,0 +1,145 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header and Navigation */
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+nav h1 {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #f39c12;
+}
+
+/* Sections */
+.section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  margin-top: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* Skills List */
+.skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  background: #f39c12;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+
+/* Projects */
+.project {
+  margin-bottom: 1.5rem;
+}
+
+.project h3 {
+  color: #f39c12;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: white;
+  background: #222;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.project a:hover {
+  background: #f39c12;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 0.8rem;
+  background: #f39c12;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #e67e22;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+  margin-top: 2rem;
+}
